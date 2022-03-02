@@ -14,7 +14,19 @@ export default class Contador extends React.Component {
     }
   }
 
-  
+  decrementar(){
+
+    this.setState({
+
+      if(this.setState.contador >0){
+
+        contador: this.state.contador -1; 
+
+      }
+
+      
+    })
+  }
  
   render(){
     return (
